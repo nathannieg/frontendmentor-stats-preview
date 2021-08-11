@@ -1,0 +1,112 @@
+/* VARIABLES */
+
+:root {
+  --main-background: hsl(233, 47%, 7%);
+  --card-background: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+  --heading-stats-white: hsl(0, 0%, 100%);
+  --main-paragraph: hsla(0, 0%, 100%, 0.75);
+  --stat-description: hsla(0, 0%, 100%, 0.6);
+}
+
+/* RESETS */
+* {
+  margin: 0;
+  font-size: 0.9375rem;
+  box-sizing: border-box;
+}
+
+/* PAGE STYLE */
+
+body {
+  background-color: var(--main-background);
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--card-background);
+  width: 90vw;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 2.5rem 0;
+}
+
+.picture {
+  width: 90vw;
+  height: auto;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+  gap: 1rem;
+  width: 70vw;
+  height: auto;
+}
+
+h1 {
+  color: var(--heading-stats-white);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.5625rem;
+}
+
+span {
+  color: var(--soft-violet);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.5625rem;
+}
+
+.paragraph {
+  color: var(--main-paragraph);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.main-text {
+  line-height: 1.5rem;
+  width: 65vw;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.headings {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  color: var(--heading-stats-white);
+  font-size: 1.25rem;
+}
+
+.description {
+  font-size: 0.625rem;
+  font-weight: 400;
+}
+
+/* DESKTOP VERSION */
