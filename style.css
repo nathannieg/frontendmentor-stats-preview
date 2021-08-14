@@ -16,97 +16,115 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* PAGE STYLE */
 
 body {
   background-color: var(--main-background);
   display: flex;
-  justify-content: center;
-  margin: 2rem 0;
+  flex-direction: column;
+  align-items: center;
 }
 
-.container {
+.card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 2rem 2rem;
   background-color: var(--card-background);
-  width: 90vw;
-  border: none;
-  border-radius: 0.5rem;
-  margin: 2.5rem 0;
+  width: 80vw;
+  height: auto;
+  border-radius: 0 0 0.5rem 0.5rem;
 }
 
-.picture {
-  width: 90vw;
+.image-container {
+  width: 80vw;
   height: auto;
+}
+
+.image-container img {
+  width: 100%;
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
-.text {
+.text-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 1rem;
   gap: 1rem;
-  width: 70vw;
-  height: auto;
 }
 
 h1 {
-  color: var(--heading-stats-white);
   font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 1.5625rem;
+  font-size: 700;
+  color: var(--heading-stats-white);
+  font-size: 1.8rem;
+  margin: 0 2rem;
+  margin-top: 1.5rem;
+  text-align: center;
 }
 
 span {
-  color: var(--soft-violet);
   font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 1.5625rem;
+  font-size: 700;
+  color: var(--soft-violet);
+  font-size: 1.8rem;
 }
 
 .paragraph {
   color: var(--main-paragraph);
   font-family: 'Inter', sans-serif;
   font-weight: 400;
+  font-size: 0.9rem;
+  margin: 0 2rem;
+  text-align: center;
 }
 
 .main-text {
   line-height: 1.5rem;
-  width: 65vw;
 }
 
 .stats {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  margin: 1rem 0;
-}
-
-.stat {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
+  text-align: center;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
 }
 
 .headings {
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
   color: var(--heading-stats-white);
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 
 .description {
-  font-size: 0.625rem;
-  font-weight: 400;
+  font-size: 0.6rem;
+  color: var(--stat-description);
 }
 
-/* DESKTOP VERSION */
+.attribution {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+attribution {
+  color: var(--main-paragraph);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 0.5rem;
+}
+
+a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 0.5rem;
+  color: var(--soft-violet);
+}
