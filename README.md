@@ -25,9 +25,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution on my Github profile](https://github.com/nathannieg/frontendmentor-stats-preview)
-- Figma template: [My template](https://www.figma.com/file/41wkc3AsBLAuXertRP7beu/stats-preview-card-component?node-id=0%3A1)
-- Live Site URL: [Add live site URL here](https://nathannieg.github.io/frontendmentor-stats-preview/)
+- [Solution on my Github profile](https://github.com/nathannieg/frontendmentor-stats-preview)
+- [My template](https://www.figma.com/file/41wkc3AsBLAuXertRP7beu/stats-preview-card-component?node-id=0%3A1)
+- [Live site URL here](https://nathannieg.github.io/frontendmentor-stats-preview/)
 
 ## My process
 
