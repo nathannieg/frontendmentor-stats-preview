@@ -6,33 +6,22 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
-This is the first challenge I've entered on Frontend Mentor and it's also my first time creating a front end project.
-
-As I'm a complete newbie to front end programming, I followed as much of the clues and directions given by the Frontend Mentor team as I could.
+This is the first challenge I've entered on Frontend Mentor. As I'm a complete newbie to front end programming, I followed as much of the clues and directions given by the Frontend Mentor team as I could.
 
 ### The challenge
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
-
-### Screenshot
-
-![](./screenshot.jpg)
+- View the optimal layout depending on their device's screen size.
 
 ### Links
 
@@ -63,47 +52,14 @@ Users should be able to:
 
 ### What I learned
 
-- Working blend modes.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+To be completed
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+I still haven't figured out how I can set up the purple layer over the picture without adding the image through CSS code. I built the project inserting the image via HTML, so I still have to do some research around that.
 
 ## Author
 
 - Github - [Nathannie Gomes](https://github.com/nathannieg)
 - Frontend Mentor - [@nathannieg](https://www.frontendmentor.io/profile/nathannieg)
 - LinkedIn - [Nathannie Gomes](https://www.linkedin.com/in/nathanniegomes/)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

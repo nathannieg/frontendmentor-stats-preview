@@ -1,0 +1,59 @@
+@media (min-width: 900px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 85vw;
+  }
+
+  .img {
+    width: 50%;
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+
+  .card {
+    width: 70%;
+    height: 100%;
+    border-radius: 0.5rem 0 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+
+  .paragraph {
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    text-align: left;
+  }
+
+  .stats {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    flex-direction: row;
+    gap: 3rem;
+  }
+}
