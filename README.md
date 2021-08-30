@@ -26,7 +26,7 @@ Users should be able to:
 
 - [Solution on my Github profile](https://github.com/nathannieg/frontendmentor-stats-preview)
 - [My template](https://www.figma.com/file/41wkc3AsBLAuXertRP7beu/stats-preview-card-component?node-id=0%3A1)
-- [Live site](https://nathannieg.github.io/frontendmentor-stats-preview/)
+- [Live site](https://stats-preview-ng.netlify.app/)
 
 ## My process
 
