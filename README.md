@@ -10,7 +10,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -27,7 +26,7 @@ Users should be able to:
 
 - [Solution on my Github profile](https://github.com/nathannieg/frontendmentor-stats-preview)
 - [My template](https://www.figma.com/file/41wkc3AsBLAuXertRP7beu/stats-preview-card-component?node-id=0%3A1)
-- [Live site URL here](https://nathannieg.github.io/frontendmentor-stats-preview/)
+- [Live site](https://nathannieg.github.io/frontendmentor-stats-preview/)
 
 ## My process
 
@@ -52,11 +51,9 @@ Users should be able to:
 
 ### What I learned
 
-To be completed
+- Overlay - I can easily say the biggest challenge was figuring out how to set the purple overlay. I learned that one of the solutions is creating a container and then an img tag inside of it. The source should be set with the css property "content" so that you can easily adapt your code to differente screen sizes. The mix-blend-mode property should then be applied to the image, and not to its div parent.
 
-### Continued development
-
-I still haven't figured out how I can set up the purple layer over the picture without adding the image through CSS code. I built the project inserting the image via HTML, so I still have to do some research around that.
+- Manipulating images - Another big challenge was learning how to properly fit images into containers, specially when they're set via CSS.
 
 ## Author
 
